@@ -4,10 +4,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix arcanes: <https://jardindesconnaissances.univ-paris8.fr/onto/arcanes#> .
+@prefix arcanes: <https://github.com/JerGag/arcanes_ontology/blob/main/arcanes_ontology.ttl#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/arcanes#> a owl:Ontology ;
+<https://github.com/JerGag/arcanes_ontology/blob/main/arcanes_ontology.ttl#> a owl:Ontology ;
     dcterms:title "Arcanes" .
 
 arcanes:StrategieTromperie a rdfs:Class ;
@@ -15,7 +15,27 @@ arcanes:StrategieTromperie a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+arcanes:Perception a rdfs:Class ;
+    rdfs:label "Perception" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcanes:Documentaire a rdfs:Class ;
+    rdfs:label "Documentaire" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 arcanes:hasStrategieTromperie a rdf:Property ;
     rdfs:label "a comme strategie de tromperie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcanes:hasPerception a rdf:Property ;
+    rdfs:label "est perçu comme" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcanes:hasDocumentary a rdf:Property ;
+    rdfs:label "a comme documentaire associé" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
