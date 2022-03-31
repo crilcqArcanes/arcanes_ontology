@@ -15,6 +15,11 @@ arcn:CollectionArcanes a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+arcn:ContributeurArcanes a rdfs:Class ;
+    rdfs:label "ContributeurArcanes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 arcn:StrategieTromperie a rdfs:Class ;
     rdfs:label "StrategieTromperie" ;
     rdfs:domain o:Resource ;
@@ -32,6 +37,11 @@ arcn:Documentaire a rdfs:Class ;
 
 arcn:hasCollectionArcanes a rdf:Property ;
     rdfs:label "a comme collection arcanes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasContributeurArcanes a rdf:Property ;
+    rdfs:label "a comme contributeur arcanes" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
