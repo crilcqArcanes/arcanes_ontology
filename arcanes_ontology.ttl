@@ -35,6 +35,11 @@ arcn:Documentaire a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+arcn:Contributeur a rdfs:Class ;
+    rdfs:label "Contributeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 arcn:hasCollectionArcanes a rdf:Property ;
     rdfs:label "a comme collection arcanes" ;
     rdfs:domain o:Resource ;
@@ -57,5 +62,10 @@ arcn:hasPerception a rdf:Property ;
 
 arcn:hasDocumentary a rdf:Property ;
     rdfs:label "a comme documentaire associé" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasContributeur a rdf:Property ;
+    rdfs:label "a comme contributeur" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
