@@ -20,6 +20,11 @@ arcn:ContributeurArcanes a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+arcn:EffetMediatique a rdfs:Class ;
+    rdfs:label "EffetMediatique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 arcn:StrategieTromperie a rdfs:Class ;
     rdfs:label "StrategieTromperie" ;
     rdfs:domain o:Resource ;
@@ -57,6 +62,11 @@ arcn:hasStrategieTromperie a rdf:Property ;
 
 arcn:hasPerception a rdf:Property ;
     rdfs:label "est perçu comme" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasEffetMediatique a rdf:Property ;
+    rdfs:label "a comme effet médiatique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
