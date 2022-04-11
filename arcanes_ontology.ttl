@@ -21,7 +21,12 @@ arcn:ContributeurArcanes a rdfs:Class ;
     vs:term_status "experimental" .
 
 arcn:EffetMediatique a rdfs:Class ;
-    rdfs:label "EffetMediatique" ;
+    rdfs:label "EffetMédiatique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:TypeEffetMediatique a rdfs:Class ;
+    rdfs:label "TypeEffetMédiatique" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -42,6 +47,16 @@ arcn:Documentaire a rdfs:Class ;
 
 arcn:Contributeur a rdfs:Class ;
     rdfs:label "Contributeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:Tag a rdfs:Class ;
+    rdfs:label "Tag" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:RapportAuReel a rdfs:Class ;
+    rdfs:label "Rapport au Réel" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -70,6 +85,11 @@ arcn:hasEffetMediatique a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+arcn:hasTypeEffetMediatique a rdf:Property ;
+    rdfs:label "a comme type d'effet médiatique" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 arcn:hasDocumentary a rdf:Property ;
     rdfs:label "a comme documentaire associé" ;
     rdfs:domain o:Resource ;
@@ -77,5 +97,15 @@ arcn:hasDocumentary a rdf:Property ;
 
 arcn:hasContributeur a rdf:Property ;
     rdfs:label "a comme contributeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasTagAssocié a rdf:Property ;
+    rdfs:label "a comme tag associé" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasRapportAuRéel a rdf:Property ;
+    rdfs:label "a comme rapport au réel" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
