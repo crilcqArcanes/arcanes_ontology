@@ -45,6 +45,11 @@ arcn:Documentaire a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+arcn:ArtVivant a rdfs:Class ;
+    rdfs:label "Art Vivant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 arcn:Contributeur a rdfs:Class ;
     rdfs:label "Contributeur" ;
     rdfs:domain o:Resource ;
