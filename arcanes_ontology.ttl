@@ -124,3 +124,9 @@ arcn:hasElement a rdf:Property ;
     rdfs:label "a comme élément associé" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+arcn:hasImage a rdf:Property ;
+    rdfs:label "a comme image associée" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
