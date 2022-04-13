@@ -65,6 +65,11 @@ arcn:RapportAuReel a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+arcn:CarnetEtude a rdfs:Class ;
+    rdfs:label "Carnet d'étude" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 arcn:hasCollectionArcanes a rdf:Property ;
     rdfs:label "a comme collection arcanes" ;
     rdfs:domain o:Resource ;
@@ -112,5 +117,10 @@ arcn:hasTagAssocié a rdf:Property ;
 
 arcn:hasRapportAuRéel a rdf:Property ;
     rdfs:label "a comme rapport au réel" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+arcn:hasElement a rdf:Property ;
+    rdfs:label "a comme élément associé" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
