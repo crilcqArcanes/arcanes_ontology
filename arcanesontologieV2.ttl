@@ -7,7 +7,7 @@
 @prefix arcn: <https://github.com/JerGag/arcanes_ontology/blob/main/arcanes_ontology.ttl#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 
-<https://raw.githubusercontent.com/GabarielleGg/arcanes_ontology/main/arcanesontologieV2.ttl#> a owl:Ontology ;
+<https://github.com/JerGag/arcanes_ontology/blob/main/arcanesontologieV2.ttl#> a owl:Ontology ;
     dcterms:title "Arcanes Vocabulaire" .
 
 arcn:CollectionArcanes a rdfs:Class ;
